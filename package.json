@@ -1,7 +1,7 @@
 {
-  "name": "template-service",
+  "name": "nodejs-publish-subscribe-service",
   "version": "0.0.1",
-  "description": "Template repo for typescript service",
+  "description": "Service to Publish and Subscribe",
   "main": "/dist/index.js",
   "types": "/dist/index.d.ts",
   "scripts": {
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cvespa/template-service.git"
+    "url": "git+https://github.com/cvespa/nodejs-publish-subscribe-service.git"
   },
   "author": "cvespa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cvespa/template-service/issues"
+    "url": "https://github.com/cvespa/nodejs-publish-subscribe-service/issues"
   },
-  "homepage": "https://github.com/cvespa/template-service#readme",
+  "homepage": "https://github.com/cvespa/nodejs-publish-subscribe-service#readme",
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
@@ -54,5 +54,8 @@
     "*.ts": [
       "eslint --fix"
     ]
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
   }
 }

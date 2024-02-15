@@ -1,6 +1,6 @@
-# template-service
+# Publish Subscribe Service
 
-Template repo for typescript service
+Service to Publish and Subscribe
 
 ## Details
 
@@ -23,3 +23,7 @@ Project uses the following hooks
 - [secretlint](https://github.com/secretlint/secretlint)
 - [ts-jest](https://github.com/kulshekhar/ts-jest)
 - [typescript](https://www.typescriptlang.org/docs/)
+
+## Dependinces
+
+- [kafkajs](https://kafka.js.org/docs/getting-started)
